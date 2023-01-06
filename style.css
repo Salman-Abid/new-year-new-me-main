@@ -184,6 +184,9 @@ footer{
 .footerText h3{
     font-size: 45px;
     color: #F8F8F8;
+    font-weight: 600;
+    margin-bottom: 10px;
+
 }
 
 .footerText p{
