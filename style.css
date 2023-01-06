@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* banner Section */
+.bannerSection{
+    height: 100vh;
+    background: url(images/banner/banner2.png);
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10%;
+
+}
+
+.bannerText{
+    width: 500px;
+    text-align: end;
+    
+    
+}
+
+.bannerText h2{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #151414;
+    
+}
+.bannerText p{
+    font-size: 16px;
+    color: #444343;
+    line-height: 20px;
+    padding: 10px 0 20px 0;
+    
+}
+.bannerBtn{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: #F15B22;
+    border: 0;
+    border-radius: 5px;
+    
+}
+/* banner Section end */
+
+/* previus Section */
+
+.previousSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 30px; */
+    padding: 40px 50px;
+}
+
+.previusImg{}
+.previusImg img{}
+
+.previusText{
+    width: 40%;
+    padding: 10%
+}
+
+.previusText h3{
+    font-size: 40px;
+    color: #151414;
+    line-height: 50px;
+}
+
+.previusText p{
+    font-size: 16px;
+    color: #444343;
+    line-height: 22px;
+    padding: 15px 0;
+
+}
+
+.previusText ul li{
+    list-style: none;
+    font-size: 16px;
+    color: #444343;
+    padding: 5px 0;
+}
+
+.previusText ul li > i{
+    color: #16D887;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* previus Section end */
+
+/* Plan Section */
+.planSection{
+    padding: 40px 0;
+}
+.planSection h3{
+    text-align: center;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 20px;
+}
+
+
+.planItemsSection{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 10%;
+    
+}
+
+.planItem{
+    text-align: center;
+}
+
+.planItem > div{
+    padding: 15px 0;
+}
+
+.planItem > div h4{
+    font-size: 30px;
+    color: #151414;
+
+}
+
+.planItem > div p{
+    font-size: 20px;
+    color:#737272;
+    padding-top:10px ;
+}
+/* Plan Section end */
+
+/* banner Bottom Section */
+.bannerBottomSection{
+    background: linear-gradient(to right, #F15B22, #f15d222d), url(images/watch.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin: 100px 100px;
+    border-radius: 5px;
+}
+
+.bannerBoottomText{
+    padding: 50px 20px;
+}
+
+.bannerBoottomText h3{
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.bannerBottomBtn{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/* banner Bottom Section end */
+
+/* footer Section */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 100px;
+    background: black;
+}
+
+.footerText{
+    width: 30%;
+}
+
+.footerText h3{
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.footerText p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #ffffff;
+}
+.footerText > div{
+    padding: 15px 0;
+}
+
+.footerText > div small{
+    color: #ffffff;
+    display: block;
+    padding: 5px;
+}
+
+.footerForm{}
+.footerForm h4{
+    font-size: 35px;
+    color: #F8F8F8;
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+}
+
+label input[type="email"]{
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #dad2d2;
+    border-radius: 5px;
+    background: none;
+}
+
+
+.SubmitBtn{
+
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #F15B22;
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+/* footer Section end */
